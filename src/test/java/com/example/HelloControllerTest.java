@@ -8,6 +8,6 @@ class HelloControllerTest {
     @Test
     void helloReturnsGreeting() {
         String result = new HelloController().hello();
-        assertTrue(result.startsWith("Hello, GitHub Actions!"));
+        assertTrue(result.startsWith("Bye, GitHub Actions!"));
     }
 }
